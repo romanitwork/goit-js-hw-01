@@ -8,5 +8,5 @@ else{
 if (password === ADMIN_PASSWORD){console.log('Добро пожаловать!')}
 else{
     console.log('Доступ запрещен, неверный пароль!')}
-} 
+}
 
