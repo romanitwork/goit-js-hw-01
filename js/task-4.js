@@ -3,7 +3,7 @@
 const credits = 23580;
 const pricePerDroid = 3000;
 const buy = prompt("Сколько дроидов вы хотите купить:");
-let totalPrice = buy * pricePerDroid;
+const totalPrice = Number(buy) * pricePerDroid;
 
 if (buy === null) {
   console.log("Отменено пользователем!");
